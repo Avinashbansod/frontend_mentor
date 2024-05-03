@@ -1,0 +1,82 @@
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgb(61, 61, 61);
+}
+
+body {
+    background-color: bisque;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.container {
+    margin: 10% auto;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 60px;
+    background-color: white;
+}
+
+.preparation_time {
+    background-color: rgb(255, 234, 237);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.ingredients  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.instruction {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ingredients::after {
+    content: "";
+    display: block;
+    border-top: 1px solid grey;
+}
+
+.instruction::after {
+    content: "";
+    display: block;
+    border-top: 1px solid grey;    
+}
+
+table, th, td {
+    padding: 10px;
+    text-align: left;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+ul li::marker, ol li::marker, h1 , h2, span.container {
+    color: rgb(225, 149, 9);
+    font-weight: bold;
+}
+
+td {
+    color: rgb(225, 149, 9);
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 0.5px solid grey;
+}
